@@ -1,6 +1,6 @@
 # NanoConnectHcSr04
 
-## This is an Arduino library to read HC-SR04 Ultrasonic distance sensor type devices for the Arduino Nano RP2040 Connect.
+## An Arduino Nano RP2040 Connect library for HC-SR04 type ultrasonic distance sensors.
 
 ## It is implemented using the RP2040 PIO processor.
 
