@@ -26,8 +26,8 @@ NanoConnectHcSr04::NanoConnectHcSr04(int triggerPin, int echoPin, PIO pio=pio0, 
 {
     this->sonar_sm = sm;
     this->sonar_pio = pio;
-    sonar_offset = pio_add_program(pio0, &hc_sr04_program);
-    hc_sr04_init(pio0, sm, sonar_offset, triggerPin, echoPin);
+    sonar_offset = pio_add_program(pio, &hc_sr04_program);
+    hc_sr04_init(pio, sm, sonar_offset, triggerPin, echoPin);
 }
 
 /// @brief Destructor
